@@ -8,6 +8,7 @@ const rateLimit = require('express-rate-limit');
 const authRoutes = require('./routes/auth');
 const apiKeyRoutes = require('./routes/apiKeys');
 const dataRoutes = require('./routes/data');
+const adminFoodsRoutes = require('./routes/adminFoods');
 
 const app = express();
 
