@@ -55,6 +55,7 @@ app.get('/health', (req, res) => {
 app.use('/api/auth', authRoutes);
 app.use('/api/keys', apiKeyRoutes);
 app.use('/api/v1', dataRoutes);
+app.use('/api/admin', adminFoodsRoutes);
 
 // ------------------- 404 handler -------------------
 app.use((req, res) => {
