@@ -242,3 +242,6 @@ curl -s "$BASE/api/v1/foods?limit=5" -H "x-api-key: $APIKEY"
 
 ## 📄 Lisensi
 MIT
+
+<img width="982" height="552" alt="Cuplikan layar 2026-09-19 005633" src="https://github.com/user-attachments/assets/7cd428c1-66fa-493f-b1a3-efa246b5b06b" />
+
